@@ -10,8 +10,8 @@
 <!-- TITLE OF WEB PAGE -->
 <title></title>
 <link rel='apple-touch-icon-precomposed' href='powered-by-spreadsheetconverter.png'/>
-<!-- EXTERNAL STYLE SHEET -->
-<link type='text/css' rel='stylesheet' href='assets/app.min.css' />
+<!-- EXTERNAL STYLE SHEET-->
+<link type='text/css' rel='stylesheet' href='assets/app.min.css' /> 
 <script>APPNAME='appfly'</script>
 <!-- EXTERNAL JAVASCRIPT -->
 <script type='text/javascript' src='assets/app.min.js'></script>
@@ -22,25 +22,50 @@
 		<input type='hidden' id='xl_target2' name='xl_target2' value='amrCL6Dxg2gIeSRCbwEWCc+msm6/I4PS9iINC+nrczgzhnWTpzQ31hiO2S891CXYLdRPijrMY7H4goKsWUgekEBf460V+z98owz/ZDh2NFb9zWJCblqLtPdd10DKDoIzYQdEVTEnH1N/q+x5JzvbT9VGIR1Gnq6zOTHzURP98qA=' />
 		<input type='hidden' id='xl_spreadsheet' name='xl_spreadsheet' value='appfly.xlsx' />
 		<input type='hidden' id='xl_client' name='xl_client' value='x7.8.6078.0' />
-		<div id = "home" data-role="page" swidth="0" data-theme="">
-				<div data-role="header" data-theme="">
+		<div id = "home" data-role="page" swidth="0" data-theme="b">
+				<div data-role="header" data-theme="b">
 						<h1></h1>
 						<a href="#" data-role="button" onclick="reset_onclick();return false;">Reset</a>
 						<div class="ui-btn-right">
 								<input type="submit" value="Submit" data-inline="true"/>
 						</div>
+						<h4>TrappFly 1.0</h4>
 				</div>
+				<h5 style="font-size: 1.5em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Welcome to TrappFly</h5>
+				<h5 style="font-size: 1em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Please read the few points below carefully if this is your first visit</h5>
+				<ul> 
+				<li><h5 style="list-style-type: square; list-style-position: inside; font-size: 0.75em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Determine whether you have 3G network connectivity at your reading point</h5>				 </li>
+				<li><h5 style="font-size: 0.75em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Ensure that the NFC function on your phone is activated and that WiFi is switched OFF</h5>				 </li>
+				<li><h5 style="font-size: 0.75em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><p id="demo">Click this button to get your coordinates:</p>
+<button onclick="getLocation()">Click Here</button>
+<h3><script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition);
+    }
+  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML="Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;	
+  }
+</script></h3></h5>				 </li>
+				</ul>
 				<div data-role="content">
 						<div data-role="collapsible-set">
 								<div data-role="collapsible" id=Sheet1>
 										<h3>Sheet1</h3>
 										<table width='100%' cellspacing='0' cellpadding='0' style='border-collapse:collapse' id='Sheet1-table'>
 												<tr style="height:1px;">
-														<td width='80'></td>
-														<td width='178'></td>
-														<td width='162'></td>
-														<td width='80'></td>
-														<td width='80'></td>
+														<td width='5%'></td>
+														<td width='45%'></td>
+														<td width='40%'></td>
+														<td width='5%'></td>
+														<td width='5%'></td>
 												</tr>
 												<tr style='height:21pt'>
 														<td class='ee100'></td>
