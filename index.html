@@ -29,12 +29,14 @@
 						<div class="ui-btn-right">
 								<input type="submit" value="Submit" data-inline="true"/>
 						</div>
-						<h4>TrappFly 1.0</h4>
+						<h4>TrappFly 1.0.24</h4>
 				</div>
 				<h5 style="font-size: 1.5em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Welcome to TrappFly</h5>
-				<h5 style="font-size: 1em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Please read the few points below carefully if this is your first visit</h5>
+				<h5 style="font-size: 1em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">After entering the trap number the app will retrieve the tarp name and coordinates</h5>
 				<ul> 
-				<li><h5 style="list-style-type: square; list-style-position: inside; font-size: 0.75em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Determine whether you have 3G network connectivity at your reading point</h5>				 </li>
+				<li><h5 style="list-style-type: square; list-style-position: inside; font-size: 0.75em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Then enter the Yield and any other supplementary data.</h5></li>
+				<li><h5 style="list-style-type: square; list-style-position: inside; font-size: 0.75em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">SUBMIT the data for each trap. For the next trap restart the app</h5></li>
+				<li><h5 style="list-style-type: square; list-style-position: inside; font-size: 0.75em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">A BULK submit app is under development</h5></li>
 				<li><h5 style="font-size: 0.75em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">If relevant ensure that the NFC function on your phone is activated and that WiFi is switched OFF</h5>				 </li>
 				
 				</ul>
@@ -173,7 +175,7 @@
 				<ul>				
 				<li><h5 style="font-size: 0.75em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><p id="demo">If required Click this button to get your coordinates:</p>
 </h5>				 </li>
-				<h5><button onclick="getLocation()">Click Here</button>
+				<div class="ui-btn-right"><h5><button onclick="getLocation()">Get coordinates HERE</button></div>
 <h3><script>
 var x=document.getElementById("demo");
 function getLocation()
@@ -190,6 +192,14 @@ function showPosition(position)
   "<br>Longitude: " + position.coords.longitude;	
   }
 </script></h3></h5></li></ul>
+<br>
+<h1></h1>
+						
+						<div class="ui-btn-right">
+								<input type="submit" value="Submit" data-inline="true"/>
+						</div>
+						<h4>Change LOG</h4>
+						<p>24Oct | Added SUBMIT button the bottom of TrappFly </p>
 		</div>
 		<input type="hidden" id="xl_aux2" name="xl_aux2" value="UEsDBC0AAAAIAEt8V0VcBYIf//////////8eABQAVHJhcHBGbHlfdGVtcGxhdGVcaW1hZ2UwMDIuZ2lmAQAQAM0UAAAAAAAAaxQAAAAAAABFk3k8VH3Yxo+i0Mg2mKGmZsyMGNvMQSiyDCFkmWNX2Y4lKVshauxr2ZeTJWuTSYWSVg9C0qksnaTlKQrR8pRQqafzet73j/f+7/7cn8/vvu7vdf1221obGvkFAUHAd+D/CgQAGAAQAEABAAdYAMA
 CARYMsBCAhQIsHIAAAAIBCAYgBIBQAMIBPgDwQYAPA3wE4KMAHweEACAEASEMCBFAiAJCHMAAAAMBDAYwBMBQAMNX3wZwEMBhAEcAHAXw1WZ1NwgCMAggIICuzkAWALJAkAWDLARkoSALByEAhEAQgkEIASEUhHCQD4B8EOTDIB8B+SjIx0EhAApBUAiDQgQUoqAQBzEAxEAQg0EMATEUxHAQB0AcBHEYxBEQR0F8Vcfq2SAMwDCAwAC6KgtmAT
