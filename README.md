@@ -1,4 +1,0 @@
-trappfly
-========
-
-Fruitfly trap database
