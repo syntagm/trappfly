@@ -852,7 +852,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 1px solid #ffaf0f;
-	background: #f58400 url(images/ui-bg_inset-soft_30_f58400_1x100.png) 50% 50% repeat-x;
+	background: #0196a5 url(images/ui-bg_inset-soft_30_0196a5_1x100.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -1173,7 +1173,7 @@ body .ui-tooltip {
 	border-radius: 8px;
 }
 
-}/*!
+/*!
  * jQuery UI Resizable 1.8.21
  *
  * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
@@ -1910,7 +1910,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 }
 .toolbar {
 	margin-top: 5px;
-	background-color: #f1f1f1;
+	background-color: #494529;
 	z-index: -1;
 	border-top: solid 4px #ff9c08;
 	border-bottom: solid 2px #D9d8CE;
@@ -1959,6 +1959,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	margin: auto 0;
 	border: 2px
 }
+
 .toolbarGreenbtn {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79c979), color-stop(1, #00901b) );
 	background:-moz-linear-gradient( center top, #79c979 5%, #00901b 100% );
@@ -2013,6 +2014,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	position:relative;
 	top:1px
 }
+
 .tlb-nav-link {
 	display: table;
 	height: 54px;
@@ -2160,38 +2162,12 @@ textarea {
 	font-weight: 400
 }
 .ee110 {
-	background: #FBFBB3;
+	background: #fff;
 	font-family: Calibri, sans-serif;
 	font-size: 16.00pt;
 	vertical-align: middle
 }
 .ee114 {
-	background: #fff;
-	color: #000;
-	font-family: Calibri, sans-serif;
-	font-size: 16.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: left;
-	vertical-align: middle
-}
-.ee117 {
-	background: #fff;
-	color: red;
-	font-family: Calibri, sans-serif;
-	font-size: 16.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: left;
-	vertical-align: middle
-}
-.ee119 {
 	background: #fff;
 	color: #000;
 	font-family: Calibri, sans-serif;
@@ -2204,9 +2180,22 @@ textarea {
 	text-align: left;
 	vertical-align: bottom
 }
-.ee122 {
-	background: #000;
-	color: #ff0;
+.ee117 {
+	background: #0196A5;
+	color: #fff;
+	font-family: Calibri, sans-serif;
+	font-size: 12.00pt;
+	font-style: normal;
+	font-weight: 700;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	text-align: center;
+	vertical-align: middle
+}
+.ee120 {
+	background: #00BAD5;
+	color: windowtext;
 	font-family: Calibri, sans-serif;
 	font-size: 12.00pt;
 	font-style: normal;
@@ -2217,9 +2206,32 @@ textarea {
 	text-align: center;
 	vertical-align: middle
 }
+.ee123 {
+	background: #fff;
+	color: windowtext;
+	font-family: Calibri, sans-serif;
+	font-size: 12.00pt;
+	font-style: normal;
+	font-weight: 400;
+	padding-left: 0;
+	padding-right: 1px;
+	padding-top: 0;
+	text-align: center;
+	vertical-align: middle
+}
+.ee124 {
+	background: #fff;
+	color: windowtext;
+	font-family: Calibri, sans-serif;
+	font-size: 12.00pt;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle
+}
 .ee125 {
-	background: #F2F2F2;
-	color: #000;
+	background: #4DCAE2;
+	color: windowtext;
 	font-family: Calibri, sans-serif;
 	font-size: 12.00pt;
 	font-style: normal;
@@ -2231,7 +2243,7 @@ textarea {
 	vertical-align: middle
 }
 .ee127 {
-	background: #B8CCE4;
+	background: #F2F2F2;
 	color: windowtext;
 	font-family: Calibri, sans-serif;
 	font-size: 12.00pt;
@@ -2244,7 +2256,7 @@ textarea {
 	vertical-align: middle
 }
 .ee128 {
-	background: #B8CCE4;
+	background: #F2F2F2;
 	color: windowtext;
 	font-family: Calibri, sans-serif;
 	font-size: 12.00pt;
@@ -2254,41 +2266,32 @@ textarea {
 	vertical-align: middle
 }
 .ee129 {
-	background: #D9D9D9;
-	color: #000;
+	background: #494529;
+	color: #fff;
 	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
+	font-size: 14.00pt;
 	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: center;
-	vertical-align: middle
-}
-.ee131 {
-	background: #DCE6F1;
-	color: windowtext;
-	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	padding-left: 0;
 	padding-right: 1px;
 	padding-top: 0;
 	text-align: center;
 	vertical-align: middle
 }
-.ee132 {
-	background: #DCE6F1;
-	color: windowtext;
+.ee131 {
+	background: #494529;
+	color: #fff;
 	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
+	font-size: 14.00pt;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	text-align: center;
 	vertical-align: middle
 }
 textarea {
 	overflow: auto
+}
+
+img {
+max-width: 100%;
 }
