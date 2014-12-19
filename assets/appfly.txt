@@ -1342,3 +1342,30 @@ body {
 	color: #333;
 	background-color: #00bad5
 }
+
+*************************************
+
+ <h3 ><a href="#sheet-3">NewTraps</a></h3>
+            <div id="sheet-3">
+                <table width= '100%' cellspacing='0' cellpadding='0' style='border-spacing:0;' onkeydown='javascript:navigate(event);'>
+					<col width='15%'/>
+					<col width='40%'/>
+					<col width='30%'/>
+					<col width='15%'/>
+                    <tr style='height:21pt'>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+						<td class='ee103' style='height:21pt;' colspan = '2'>
+							New Traps Only
+						</td>
+						<td class='ee100' style='height:21pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:77pt'>
+						<td class='ee100' style='height:77pt;'>&nbsp;</td>
+						<td class='ee109' style='height:77pt;vertical-align:top;' colspan = '2' rowspan = '2'>
+						<span style='
+  position:absolute;z-index:1;margin-left:0px;margin-top:0px;width:65%;
+  height:93px'>
+							<img src='image004.png' width='100%' height='93' alt='' />
+						</span>
+						</td>
+						<td class='ee100' style='height:77pt;'>&nbsp;</td>
