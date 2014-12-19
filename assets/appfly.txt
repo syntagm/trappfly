@@ -1,4 +1,118 @@
-/*! jQuery UI - v1.10.0 - 2013-02-11  SYNapps variation 4 Nov 2014
+}
+img,
+embed,
+object,
+video {
+max-width: 100%;
+}#button button {
+	font-size: x-large;
+	font-weight: 700;
+	height: 2em;
+	width: auto;
+}
+
+.blocked {
+	display: inline-block;
+	padding:3px 7px;
+	color: white;
+	background-color:#d71818
+}
+
+.serviceIconGlobeLight {
+	background: url(../icons/servicesIcons/32/2/iconGlobeBg32.png) 0 0 no-repeat;
+}
+
+.serviceIcon {
+	height: 32px;
+	display: block;
+	padding-left: 44px;
+	line-height: 32px;
+	font-size: 14px;
+	margin-bottom: 18px;
+	color: #000;
+}
+	#button h4 {
+	padding: 0.75em;
+}
+
+***********************************
+
+            <div class='tlb-elm toolpanel'>
+                <button class='tlb-btn toolbarBluebtn update' >Update</button>
+                <button class='tlb-btn toolbarBluebtn reset' style='margin-left:3px'>Reset</button>
+                <button class='tlb-btn toolbarBluebtn print' style='margin-left:3px'>Print</button>
+                <button class='tlb-btn toolbarGreenbtn submit' style='margin-left:12px'>Submit</button></br></br></br></div>
+            
+</br></br></br>
+        </div>
+		<!-- Locator --------------------------------------->
+			<br>
+			<br>
+			<br>
+			<h4><strong class="blocked">Please note </strong> that the coordinates may be small on a mobile device</h4>			
+			<span class="serviceIcon serviceIconGlobeLight"><h4>Make a note of the coordinates</h4></span>			
+			<h4>and return to the input GRID to complete the entry</h4>
+			<br>			
+      		<p id="demo">Click this button to get your coordinates:</p>
+<button onclick="getLocation()">Click Here</button>
+<h3><script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition);
+    }
+  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML="Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;	
+  }
+</script></h3>
+			<br>
+			<hr>
+			<h4>Your coordinates are above this line</h4>
+			<!-- Locator --------------------------------------------->
+		
+    </body>
+
+************************************
+
+ <input type='hidden' id='xl_client' name='xl_client' value='x7.8.6078.0' />
+			<!-- Top text set -->
+			<p style="color: #FFF; background-color: #00bad5; font-size: 25px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; padding-top: 15px; padding-left: 25px;"> TrappFly Version 1.0.25</p>
+<!-- Top text set -->
+        <div id="accordion">
+            <h3 ><a href="#sheet-1">Main</a></h3>
+            <div id="sheet-1">
+                <table width= '100%' cellspacing='0' cellpadding='0' style='border-spacing:0;' onkeydown='javascript:navigate(event);'>
+					<col width='52'/>
+					<col width='259'/>
+					<col width='169'/>
+					<col width='52'/>
+                    <tr style='height:26pt'>
+						<td class='ee100' style='height:26pt;'>&nbsp;</td>
+						<td class='ee103' style='height:26pt;' colspan = '2'>
+							Existing Traps Only
+						</td>
+						<td class='ee100' style='height:26pt;'>&nbsp;</td>
+                    </tr>
+                    <tr style='height:43pt'>
+						<td class='ee100' style='height:43pt;'>&nbsp;</td>
+						<td class='ee109' style='height:43pt;vertical-align:top;' colspan = '2' rowspan = '2'>
+						<span style='
+  position:absolute;z-index:1;margin-left:0px;margin-top:0px;width:75%;
+  height:101px'>
+							<img src='image002.png' width='100%' height='101' alt='' />
+						</span>
+						</td>
+
+
+*****************app.min.css********************************
+
+/*! jQuery UI - v1.10.0 - 2013-02-11
 * http://jqueryui.com
 * Includes: jquery.ui.core.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css
 * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Segoe%20UI%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=6px&bgColorHeader=333333&bgTextureHeader=gloss_wave&bgImgOpacityHeader=25&borderColorHeader=333333&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=000000&bgTextureContent=inset_soft&bgImgOpacityContent=25&borderColorContent=666666&fcContent=ffffff&iconColorContent=cccccc&bgColorDefault=555555&bgTextureDefault=glass&bgImgOpacityDefault=20&borderColorDefault=666666&fcDefault=eeeeee&iconColorDefault=cccccc&bgColorHover=0078a3&bgTextureHover=glass&bgImgOpacityHover=40&borderColorHover=59b4d4&fcHover=ffffff&iconColorHover=ffffff&bgColorActive=f58400&bgTextureActive=inset_soft&bgImgOpacityActive=30&borderColorActive=ffaf0f&fcActive=ffffff&iconColorActive=222222&bgColorHighlight=eeeeee&bgTextureHighlight=highlight_soft&bgImgOpacityHighlight=80&borderColorHighlight=cccccc&fcHighlight=2e7db2&iconColorHighlight=4b8e0b&bgColorError=ffc73d&bgTextureError=glass&bgImgOpacityError=40&borderColorError=ffb73d&fcError=111111&iconColorError=a83300&bgColorOverlay=5c5c5c&bgTextureOverlay=flat&bgImgOpacityOverlay=50&opacityOverlay=80&bgColorShadow=cccccc&bgTextureShadow=flat&bgImgOpacityShadow=30&opacityShadow=60&thicknessShadow=7px&offsetTopShadow=-7px&offsetLeftShadow=-7px&cornerRadiusShadow=8px
@@ -600,7 +714,7 @@ button.ui-button::-moz-focus-inner {
 	height: 100%;
 }
 .ui-progressbar .ui-progressbar-overlay {
-	background: url("file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/animated-overlay.gif");
+	background: url("images/animated-overlay.gif");
 	height: 100%;
 	filter: alpha(opacity=25);
 	opacity: 0.25;
@@ -798,7 +912,7 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	border: 1px solid #666666;
-	background: #000000 url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-bg_inset-soft_25_000000_1x100.png) 50% bottom repeat-x;
+	background: #000000 url(images/ui-bg_inset-soft_25_000000_1x100.png) 50% bottom repeat-x;
 	color: #ffffff;
 }
 .ui-widget-content a {
@@ -806,7 +920,7 @@ body .ui-tooltip {
 }
 .ui-widget-header {
 	border: 1px solid #333333;
-	background: #333333 url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-bg_gloss-wave_25_333333_500x100.png) 50% 50% repeat-x;
+	background: #333333 url(images/ui-bg_gloss-wave_25_333333_500x100.png) 50% 50% repeat-x;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -820,7 +934,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #666666;
-	background: #555555 url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-bg_glass_20_555555_1x400.png) 50% 50% repeat-x;
+	background: #555555 url(images/ui-bg_glass_20_555555_1x400.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #eeeeee;
 }
@@ -837,7 +951,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: 1px solid #59b4d4;
-	background: #0078a3 url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-bg_glass_40_0078a3_1x400.png) 50% 50% repeat-x;
+	background: #0078a3 url(images/ui-bg_glass_40_0078a3_1x400.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -852,7 +966,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 1px solid #ffaf0f;
-	background: #0196a5 url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-bg_inset-soft_30_0196a5_1x100.png) 50% 50% repeat-x;
+	background: #f58400 url(images/ui-bg_inset-soft_30_f58400_1x100.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -869,7 +983,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #cccccc;
-	background: #eeeeee url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-bg_highlight-soft_80_eeeeee_1x100.png) 50% top repeat-x;
+	background: #eeeeee url(images/ui-bg_highlight-soft_80_eeeeee_1x100.png) 50% top repeat-x;
 	color: #2e7db2;
 }
 .ui-state-highlight a,
@@ -881,7 +995,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
 	border: 1px solid #ffb73d;
-	background: #ffc73d url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-bg_glass_40_ffc73d_1x400.png) 50% 50% repeat-x;
+	background: #ffc73d url(images/ui-bg_glass_40_ffc73d_1x400.png) 50% 50% repeat-x;
 	color: #111111;
 }
 .ui-state-error a,
@@ -928,27 +1042,27 @@ body .ui-tooltip {
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-icons_cccccc_256x240.png);
+	background-image: url(images/ui-icons_cccccc_256x240.png);
 }
 .ui-widget-header .ui-icon {
-	background-image: url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-icons_ffffff_256x240.png);
+	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-default .ui-icon {
-	background-image: url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-icons_cccccc_256x240.png);
+	background-image: url(images/ui-icons_cccccc_256x240.png);
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-icons_ffffff_256x240.png);
+	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-active .ui-icon {
-	background-image: url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-icons_222222_256x240.png);
+	background-image: url(images/ui-icons_222222_256x240.png);
 }
 .ui-state-highlight .ui-icon {
-	background-image: url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-icons_4b8e0b_256x240.png);
+	background-image: url(images/ui-icons_4b8e0b_256x240.png);
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-icons_a83300_256x240.png);
+	background-image: url(images/ui-icons_a83300_256x240.png);
 }
 
 /* positioning */
@@ -1160,1139 +1274,71 @@ body .ui-tooltip {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #5c5c5c url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-bg_flat_50_5c5c5c_40x100.png) 50% 50% repeat-x;
+	background: #5c5c5c url(images/ui-bg_flat_50_5c5c5c_40x100.png) 50% 50% repeat-x;
 	opacity: .8;
 	filter: Alpha(Opacity=80);
 }
 .ui-widget-shadow {
 	margin: -7px 0 0 -7px;
 	padding: 7px;
-	background: #cccccc url(file:///C|/Users/user/Documents/GitHub/old_appfly/assets/images/ui-bg_flat_30_cccccc_40x100.png) 50% 50% repeat-x;
+	background: #cccccc url(images/ui-bg_flat_30_cccccc_40x100.png) 50% 50% repeat-x;
 	opacity: .6;
 	filter: Alpha(Opacity=60);
 	border-radius: 8px;
 }
 
-/*!
- * jQuery UI Resizable 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Resizable#theming
- */
-.ui-resizable {
-	position: relative
-}
-.ui-resizable-handle {
-	position: absolute;
-	font-size: .1px;
-	display: block
-}
-.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle {
-	display: none
-}
-.ui-resizable-n {
-	cursor: n-resize;
-	height: 7px;
-	width: 100%;
-	top: -5px;
-	left: 0
-}
-.ui-resizable-s {
-	cursor: s-resize;
-	height: 7px;
-	width: 100%;
-	bottom: -5px;
-	left: 0
-}
-.ui-resizable-e {
-	cursor: e-resize;
-	width: 7px;
-	right: -5px;
-	top: 0;
-	height: 100%
-}
-.ui-resizable-w {
-	cursor: w-resize;
-	width: 7px;
-	left: -5px;
-	top: 0;
-	height: 100%
-}
-.ui-resizable-se {
-	cursor: se-resize;
-	width: 12px;
-	height: 12px;
-	right: 1px;
-	bottom: 1px
-}
-.ui-resizable-sw {
-	cursor: sw-resize;
-	width: 9px;
-	height: 9px;
-	left: -5px;
-	bottom: -5px
-}
-.ui-resizable-nw {
-	cursor: nw-resize;
-	width: 9px;
-	height: 9px;
-	left: -5px;
-	top: -5px
-}
-.ui-resizable-ne {
-	cursor: ne-resize;
-	width: 9px;
-	height: 9px;
-	right: -5px;
-	top: -5px
-}/*!
- * jQuery UI Selectable 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Selectable#theming
- */
-.ui-selectable-helper {
-	position: absolute;
-	z-index: 100;
-	border: 1px dotted black
-}/*!
- * jQuery UI Accordion 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Accordion#theming
- */
-.ui-accordion {
-	width: 100%
-}
-.ui-accordion .ui-accordion-header {
-	cursor: pointer;
-	position: relative;
-	margin-top: 1px;
-	zoom: 1
-}
-.ui-accordion .ui-accordion-li-fix {
-	display: inline
-}
-.ui-accordion .ui-accordion-header-active {
-	border-bottom: 0!important
-}
-.ui-accordion .ui-accordion-header a {
-	display: block;
-	font-size: 1em;
-	padding: .5em .5em .5em .7em
-}
-.ui-accordion-icons .ui-accordion-header a {
-	padding-left: 2.2em
-}
-.ui-accordion .ui-accordion-header .ui-icon {
-	position: absolute;
-	left: .5em;
-	top: 50%;
-	margin-top: -8px
-}
-.ui-accordion .ui-accordion-content {
-	padding: 1em 2.2em;
-	border-top: 0;
-	margin-top: -2px;
-	position: relative;
-	top: 1px;
-	margin-bottom: 2px;
-	overflow: auto;
-	display: none;
-	zoom: 1
-}
-.ui-accordion .ui-accordion-content-active {
-	display: block
-}/*!
- * jQuery UI Autocomplete 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Autocomplete#theming
- */
-.ui-autocomplete {
-	position: absolute;
-	cursor: default
-}
-* html .ui-autocomplete {
-	width: 1px
-}
-.ui-menu {
-	list-style: none;
-	padding: 2px;
-	margin: 0;
-	display: block;
-	float: left
-}
-.ui-menu .ui-menu {
-	margin-top: -3px
-}
-.ui-menu .ui-menu-item {
-	margin: 0;
-	padding: 0;
-	zoom: 1;
-	float: left;
-	clear: left;
-	width: 100%
-}
-.ui-menu .ui-menu-item a {
-	text-decoration: none;
-	display: block;
-	padding: .2em .4em;
-	line-height: 1.5;
-	zoom: 1
-}
-.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
-	font-weight: 400;
-	margin: -1px
-}/*!
- * jQuery UI Button 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Button#theming
- */
-.ui-button {
-	display: inline-block;
-	position: relative;
-	padding: 0;
-	margin-right: .1em;
-	text-decoration: none!important;
-	cursor: pointer;
-	text-align: center;
-	zoom: 1;
-	overflow: visible
-}
-.ui-button-icon-only {
-	width: 2.2em
-}
-button.ui-button-icon-only {
-	width: 2.4em
-}
-.ui-button-icons-only {
-	width: 3.4em
-}
-button.ui-button-icons-only {
-	width: 3.7em
-}
-.ui-button .ui-button-text {
-	display: block;
-	line-height: 1.4
-}
-.ui-button-text-only .ui-button-text {
-	padding: .4em 1em
-}
-.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text {
-	padding: .4em;
-	text-indent: -9999999px
-}
-.ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text {
-	padding: .4em 1em .4em 2.1em
-}
-.ui-button-text-icon-secondary .ui-button-text, .ui-button-text-icons .ui-button-text {
-	padding: .4em 2.1em .4em 1em
-}
-.ui-button-text-icons .ui-button-text {
-	padding-left: 2.1em;
-	padding-right: 2.1em
-}
-input.ui-button {
-	padding: .4em 1em
-}
-.ui-button-icon-only .ui-icon, .ui-button-text-icon-primary .ui-icon, .ui-button-text-icon-secondary .ui-icon, .ui-button-text-icons .ui-icon, .ui-button-icons-only .ui-icon {
-	position: absolute;
-	top: 50%;
-	margin-top: -8px
-}
-.ui-button-icon-only .ui-icon {
-	left: 50%;
-	margin-left: -8px
-}
-.ui-button-text-icon-primary .ui-button-icon-primary, .ui-button-text-icons .ui-button-icon-primary, .ui-button-icons-only .ui-button-icon-primary {
-	left: .5em
-}
-.ui-button-text-icon-secondary .ui-button-icon-secondary, .ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary {
-	right: .5em
-}
-.ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary {
-	right: .5em
-}
-.ui-buttonset {
-	margin-right: 7px
-}
-.ui-buttonset .ui-button {
-	margin-left: 0;
-	margin-right: -.3em
-}
-button.ui-button::-moz-focus-inner {
-border:0;
-padding:0
-}/*!
- * jQuery UI Dialog 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Dialog#theming
- */
-.ui-dialog {
-	position: absolute;
-	padding: .2em;
-	width: 300px;
-	overflow: hidden
-}
-.ui-dialog .ui-dialog-titlebar {
-	padding: .4em 1em;
-	position: relative
-}
-.ui-dialog .ui-dialog-title {
-	float: left;
-	margin: .1em 16px .1em 0
-}
-.ui-dialog .ui-dialog-titlebar-close {
-	position: absolute;
-	right: .3em;
-	top: 50%;
-	width: 19px;
-	margin: -10px 0 0 0;
-	padding: 1px;
-	height: 18px
-}
-.ui-dialog .ui-dialog-titlebar-close span {
-	display: block;
-	margin: 1px
-}
-.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus {
-	padding: 0
-}
-.ui-dialog .ui-dialog-content {
-	position: relative;
-	border: 0;
-	padding: .5em 1em;
-	background: 0;
-	overflow: auto;
-	zoom: 1
-}
-.ui-dialog .ui-dialog-buttonpane {
-	text-align: left;
-	border-width: 1px 0 0 0;
-	background-image: none;
-	margin: .5em 0 0 0;
-	padding: .3em 1em .5em .4em
-}
-.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
-	float: right
-}
-.ui-dialog .ui-dialog-buttonpane button {
-	margin: .5em .4em .5em 0;
-	cursor: pointer
-}
-.ui-dialog .ui-resizable-se {
-	width: 14px;
-	height: 14px;
-	right: 3px;
-	bottom: 3px
-}
-.ui-draggable .ui-dialog-titlebar {
-	cursor: move
-}/*!
- * jQuery UI Slider 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Slider#theming
- */
-.ui-slider {
-	position: relative;
-	text-align: left
-}
-.ui-slider .ui-slider-handle {
-	position: absolute;
-	z-index: 2;
-	width: 1.2em;
-	height: 1.2em;
-	cursor: default
-}
-.ui-slider .ui-slider-range {
-	position: absolute;
-	z-index: 1;
-	font-size: .7em;
-	display: block;
-	border: 0;
-	background-position: 0 0
-}
-.ui-slider-horizontal {
-	height: .8em
-}
-.ui-slider-horizontal .ui-slider-handle {
-	top: -.3em;
-	margin-left: -.6em
-}
-.ui-slider-horizontal .ui-slider-range {
-	top: 0;
-	height: 100%
-}
-.ui-slider-horizontal .ui-slider-range-min {
-	left: 0
-}
-.ui-slider-horizontal .ui-slider-range-max {
-	right: 0
-}
-.ui-slider-vertical {
-	width: .8em;
-	height: 100px
-}
-.ui-slider-vertical .ui-slider-handle {
-	left: -.3em;
-	margin-left: 0;
-	margin-bottom: -.6em
-}
-.ui-slider-vertical .ui-slider-range {
-	left: 0;
-	width: 100%
-}
-.ui-slider-vertical .ui-slider-range-min {
-	bottom: 0
-}
-.ui-slider-vertical .ui-slider-range-max {
-	top: 0
-}/*!
- * jQuery UI Tabs 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Tabs#theming
- */
-.ui-tabs {
-	position: relative;
-	padding: .2em;
-	zoom: 1
-}
-.ui-tabs .ui-tabs-nav {
-	margin: 0;
-	padding: .2em .2em 0
-}
-.ui-tabs .ui-tabs-nav li {
-	list-style: none;
-	float: left;
-	position: relative;
-	top: 1px;
-	margin: 0 .2em 1px 0;
-	border-bottom: 0!important;
-	padding: 0;
-	white-space: nowrap
-}
-.ui-tabs .ui-tabs-nav li a {
-	float: left;
-	padding: .5em 1em;
-	text-decoration: none
-}
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
-	margin-bottom: 0;
-	padding-bottom: 1px
-}
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
-	cursor: text
-}
-.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
-	cursor: pointer
-}
-.ui-tabs .ui-tabs-panel {
-	display: block;
-	border-width: 0;
-	padding: 1em 1.4em;
-	background: 0
-}
-.ui-tabs .ui-tabs-hide {
-	display: none!important
-}/*!
- * jQuery UI Datepicker 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Datepicker#theming
- */
-.ui-datepicker {
-	width: 17em;
-	padding: .2em .2em 0;
-	display: none
-}
-.ui-datepicker .ui-datepicker-header {
-	position: relative;
-	padding: .2em 0
-}
-.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
-	position: absolute;
-	top: 2px;
-	width: 1.8em;
-	height: 1.8em
-}
-.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover {
-	top: 1px
-}
-.ui-datepicker .ui-datepicker-prev {
-	left: 2px
-}
-.ui-datepicker .ui-datepicker-next {
-	right: 2px
-}
-.ui-datepicker .ui-datepicker-prev-hover {
-	left: 1px
-}
-.ui-datepicker .ui-datepicker-next-hover {
-	right: 1px
-}
-.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
-	display: block;
-	position: absolute;
-	left: 50%;
-	margin-left: -8px;
-	top: 50%;
-	margin-top: -8px
-}
-.ui-datepicker .ui-datepicker-title {
-	margin: 0 2.3em;
-	line-height: 1.8em;
-	text-align: center
-}
-.ui-datepicker .ui-datepicker-title select {
-	font-size: 1em;
-	margin: 1px 0
-}
-.ui-datepicker select.ui-datepicker-month-year {
-	width: 100%
-}
-.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
-	width: 49%
-}
-.ui-datepicker table {
-	width: 100%;
-	font-size: .9em;
-	border-collapse: collapse;
-	margin: 0 0 .4em
-}
-.ui-datepicker th {
-	padding: .7em .3em;
-	text-align: center;
-	font-weight: 700;
-	border: 0
-}
-.ui-datepicker td {
-	border: 0;
-	padding: 1px
-}
-.ui-datepicker td span, .ui-datepicker td a {
-	display: block;
-	padding: .2em;
-	text-align: right;
-	text-decoration: none
-}
-.ui-datepicker .ui-datepicker-buttonpane {
-	background-image: none;
-	margin: .7em 0 0 0;
-	padding: 0 .2em;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 0
-}
-.ui-datepicker .ui-datepicker-buttonpane button {
-	float: right;
-	margin: .5em .2em .4em;
-	cursor: pointer;
-	padding: .2em .6em .3em .6em;
-	width: auto;
-	overflow: visible
-}
-.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
-	float: left
-}
-.ui-datepicker.ui-datepicker-multi {
-	width: auto
-}
-.ui-datepicker-multi .ui-datepicker-group {
-	float: left
-}
-.ui-datepicker-multi .ui-datepicker-group table {
-	width: 95%;
-	margin: 0 auto .4em
-}
-.ui-datepicker-multi-2 .ui-datepicker-group {
-	width: 50%
-}
-.ui-datepicker-multi-3 .ui-datepicker-group {
-	width: 33.3%
-}
-.ui-datepicker-multi-4 .ui-datepicker-group {
-	width: 25%
-}
-.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header {
-	border-left-width: 0
-}
-.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
-	border-left-width: 0
-}
-.ui-datepicker-multi .ui-datepicker-buttonpane {
-	clear: left
-}
-.ui-datepicker-row-break {
-	clear: both;
-	width: 100%;
-	font-size: 0
-}
-.ui-datepicker-rtl {
-	direction: rtl
-}
-.ui-datepicker-rtl .ui-datepicker-prev {
-	right: 2px;
-	left: auto
-}
-.ui-datepicker-rtl .ui-datepicker-next {
-	left: 2px;
-	right: auto
-}
-.ui-datepicker-rtl .ui-datepicker-prev:hover {
-	right: 1px;
-	left: auto
-}
-.ui-datepicker-rtl .ui-datepicker-next:hover {
-	left: 1px;
-	right: auto
-}
-.ui-datepicker-rtl .ui-datepicker-buttonpane {
-	clear: right
-}
-.ui-datepicker-rtl .ui-datepicker-buttonpane button {
-	float: left
-}
-.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current {
-	float: right
-}
-.ui-datepicker-rtl .ui-datepicker-group {
-	float: right
-}
-.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header {
-	border-right-width: 0;
-	border-left-width: 1px
-}
-.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
-	border-right-width: 0;
-	border-left-width: 1px
-}
-.ui-datepicker-cover {
-	display: none;
-	display: block;
-	position: absolute;
-	z-index: -1;
-	filter: mask();
-	top: -4px;
-	left: -4px;
-	width: 200px;
-	height: 200px
-}/*!
- * jQuery UI Progressbar 1.8.21
- *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Progressbar#theming
- */
-.ui-progressbar {
-	height: 2em;
-	text-align: left;
-	overflow: hidden
-}
-.ui-progressbar .ui-progressbar-value {
-	margin: -1px;
-	height: 100%
-}
-.error {
-	border: 2px solid red;
-!important background-color:#FFFFD5;
-!important
-}
-.error {
-	border: 2px solid red!important;
-	background-color: #FFFFD5!important
-}
-.message {
-	-webkit-background-size: 40px 40px;
-	-moz-background-size: 40px 40px;
-	background-size: 40px 40px;
-	-moz-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
-	-webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
-	box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
-	width: 100%;
-	border: 1px solid;
-	color: #E92626;
-	position: fixed;
-	_position: absolute;
-	margin-left: -10px;
-	z-index: 10000;
-	padding: 10px
-}
-.warning {
-	background-color: #EABF51;
-	border-color: #D9B236
-}
-.message h3 {
-	float: left;
-	font: 12px Arial, Helvetica, sans-serif bold;
-	font-weight: 700;
-	margin: 0 0 5px
-}
-#closeMessageBar {
-	border-radius: 100%;
-	color: #585858;
-	height: 16px;
-	position: relative;
-	text-indent: -9999px;
-	width: 16px;
-	float: right;
-	display: inline;
-	border-style: solid;
-	border-width: 3px;
-	margin: auto 18px auto auto
-}
-#closeMessageBar:hover {
-	color: #999
-}
-.arrow-t-b:after, .arrow-t-b:before, .arrow-l-r:after, .arrow-l-r:before {
-	content: "";
-	left: 2px;
-	top: 0;
-	position: absolute;
-	border-color: transparent;
-	border-style: solid;
-	border-width: 3px
-}
-.arrow-t-b:after {
-	border-top-color: inherit
-}
-.arrow-l-r:after {
-	border-right-color: inherit;
-	left: 4px;
-	top: 2px
-}
-.arrow-t-b:before {
-	border-bottom-color: inherit;
-	bottom: 0
-}
-.arrow-l-r:before {
-	border-left-color: inherit;
-	left: 0;
-	top: 2px
-}
-input, input[type="password"], input[type="search"], isindex, textarea {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box
-}
+***************************************
 .toolbar {
 	margin-top: 5px;
-	background-color: #494529;
+	background-color: #f1f1f1;
 	z-index: -1;
 	border-top: solid 4px #ff9c08;
 	border-bottom: solid 2px #D9d8CE;
 	display: inline-block;
-	height: 65px;
+	height: 70px;
 	width: 100%
 }
-.toolbar-upper {
-	margin-top: 5px;
-	background-color: #f1f1f1;
-	z-index: -1;
-	border-bottom: solid 4px #ff9c08;
-	border-top: solid 2px #D9d8CE;
-	display: inline-block;
-	height: 54px;
-	width: 100%
-}
-.toolbar .tlb-btn {
-	text-shadow: 0 -1px 0 rgba(0,0,0,.25);
-	cursor: pointer;
-	text-align: center
-}
-.toolbar .tlb-elm {
-	height: 22px
-}
-.toolbar-upper .tlb-elm {
-	height: 22px
-}
-.toolpanel {
-	float: left;
-	margin: 16px 16px 0 16px
-}
-.poweredby-logo {
-	display: inline-block;
-	float: right;
-	margin: 5px 0 0 0
-}
-.toolbar .poweredby-logo {
-	display: inline-block;
-	float: right;
-	margin: 16px 8px 0 100px
-}
-.poweredby-logo>img {
-	height: 25px;
-	float: right;
-	margin: auto 0;
-	border: 2px
-}
 
-.toolbarGreenbtn {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79c979), color-stop(1, #00901b) );
-	background:-moz-linear-gradient( center top, #79c979 5%, #00901b 100% );
-	background-color:#00901b;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
-	border-radius:4px;
-	border:1px solid #00901b;
-	display:inline-block;
-	color:#fff;
-	font-family:arial;
-	font-size:.8em;
-	font-weight:700;
-	padding:0 14px;
-	text-decoration:none;
-	margin:0;
-	height:150%
-}
-.toolbarGreenbtn:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00901b), color-stop(1, #79c979) );
-	background:-moz-linear-gradient( center top, #00901b 5%, #79c979 100% );
-	background-color:#79c979
-}
-.toolbarGreenbtn:active {
-	position:relative;
-	top:1px
-}
-.toolbarBluebtn {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #00348a) );
-	background:-moz-linear-gradient( center top, #3d94f6 5%, #00348a 100% );
-	background-color:#00348a;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
-	border-radius:4px;
-	border:1px solid #075bd1;
-	display:inline-block;
-	color:#fff;
-	font-family:arial;
-	font-size:.8em;
-	font-weight:700;
-	padding:0 14px;
-	text-decoration:none;
-	margin:0;
-	height:150%
-}
-.toolbarBluebtn:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00348a), color-stop(1, #3d94f6) );
-	background:-moz-linear-gradient( center top, #00348a 5%, #3d94f6 100% );
-	background-color:#3d94f6
-}
-.toolbarBluebtn:active {
-	position:relative;
-	top:1px
-}
+******************************
 
-.tlb-nav-link {
-	display: table;
-	height: 54px;
-	float: left;
-	margin-left: 16px
-}
-.tlb-nav-link div {
-	display: table-cell;
-	vertical-align: middle;
-	padding-right: 10px
-}
-.tlb-nav-link a {
-	display: block;
-	font-size: 12px;
-	color: #2271E7;
-	text-decoration: none
-}
-.tlb-nav-link a:hover {
-	color: #F16A22
-}
-.tlb-nav-button {
-	float: left;
-	margin-top: 0;
-	margin-left: 0;
-	border-spacing: 15px
-}
-.tlb-nav-button div {
-	vertical-align: middle;
-	padding-right: 10px
-}
-.tlb-nav-button a {
-	background-color: #94A1C1;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 3px;
-	border-radius: 4px;
-	padding: 3px 14px;
-	display: inline-block;
-	font-size: .8em;
-	color: #fff;
-	height: 100%;
-	font-family: arial;
-	margin-left: 5px;
-	text-decoration: none
-}
-.tlb-nav-button a:hover {
-	background-color: #697cac;
-	text-decoration: underline
-}
-.chart-container {
-	position: absolute;
-	cursor: default;
-	box-shadow: 1px 1px 2px #e6e6e6;
-	padding: 5px;
-	border-radius: 2px;
-	margin: 8px
-}
-.chart-container:hover {
-	cursor: pointer;
-	box-shadow: 0 0 5px green;
-	padding: 5px;
-	border-radius: 4px
-}
-.ssc-tooltip {
-	position: absolute;
-	display: none;
-	z-index: 1000;
-	background-color: #ffee69;
-	color: #000;
-	border: 1px solid #d4c237;
-	padding: 4px 8px;
-	top: 120%;
-	left: 0;
-	text-align: left;
-	width: auto
-}
-a.button {
-	padding: 3px 14px;
-	display: inline-block;
-	height: 100%;
-	text-decoration: none;
-	color: #000;
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f8f8f8), color-stop(1, #d2d2d2) );
-	background-color: #aaadaf;
-	border: 1px solid #d2d2d2;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	display: table-cell;
-	vertical-align: middle
-}
-a.button:hover {
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d2d2d2 ), color-stop(1, #f8f8f8) )
-}
-textarea {
-	resize: none
-}
-.ui-widget-content {
-	border: 1px solid #A0A0A0;
-	background: #FFF!important
-}
-.ee100 {
-	background: #fff;
-	color: #000;
-	font-family: Calibri, sans-serif;
-	font-size: 16.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: left;
-	vertical-align: bottom
-}
-.ee103 {
-	background: #fff;
-	color: #000;
-	font-family: Calibri, sans-serif;
-	font-size: 16.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: center;
-	vertical-align: bottom
-}
-.ee106 {
-	background: #fff;
-	color: red;
-	font-family: Calibri, sans-serif;
-	font-size: 16.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: left;
-	vertical-align: bottom
-}
-.ee108 {
-	background: #0196A5;
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400
-}
-.ee110 {
-	background: #fff;
-	font-family: Calibri, sans-serif;
-	font-size: 16.00pt;
-	vertical-align: middle
-}
-.ee114 {
-	background: #fff;
-	color: #000;
-	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: left;
-	vertical-align: bottom
-}
-.ee117 {
-	background: #027884;
-	color: #fff;
-	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 700;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: center;
-	vertical-align: middle
-}
-.ee120 {
-	background: #00BAD5;
-	color: windowtext;
-	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: center;
-	vertical-align: middle
-}
-.ee123 {
-	background: #fff;
-	color: windowtext;
-	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 0;
-	padding-right: 1px;
-	padding-top: 0;
-	text-align: center;
-	vertical-align: middle
-}
-.ee124 {
-	background: #fff;
-	color: windowtext;
-	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
-	text-align: center;
-	vertical-align: middle
-}
-.ee125 {
-	background: #4DCAE2;
-	color: windowtext;
-	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: center;
-	vertical-align: middle
-}
-.ee127 {
-	background: #F2F2F2;
-	color: windowtext;
-	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 0;
-	padding-right: 1px;
-	padding-top: 0;
-	text-align: center;
-	vertical-align: middle
-}
-.ee128 {
-	background: #F2F2F2;
-	color: windowtext;
-	font-family: Calibri, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
-	text-align: center;
-	vertical-align: middle
-}
-.ee129 {
-	background: #494529;
-	color: #fff;
-	font-family: Calibri, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 700;
-	padding-left: 0;
-	padding-right: 1px;
-	padding-top: 0;
-	text-align: center;
-	vertical-align: middle
-}
-.ee131 {
-	background: #494529;
-	color: #fff;
-	font-family: Calibri, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 700;
-	text-align: center;
-	vertical-align: middle
-}
-textarea {
-	overflow: auto
-}
+</form>
+        <div class='toolbar no-print'>
+            <div class='tlb-elm toolpanel'>
+                <button class='tlb-btn toolbarBluebtn update' >Update</button>
+                <button class='tlb-btn toolbarBluebtn reset' style='margin-left:3px'>Reset</button>
+                <button class='tlb-btn toolbarGreenbtn submit' style='margin-left:12px'>Submit Trap Data</button>
+            </div>
+        </div>
+		
+		<ul>				
+				<li><h5 style="list-style-type: square; color: #FFF; font-size: 1em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><p id="demo">If required Click this button to get your coordinates:</p>
+</h5>				 </li>
+				<div class="ui-btn-right"><h5><button onclick="getLocation()">Get coordinates HERE</button></div>
+<h3><script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition);
+    }
+  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML="Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;	
+  }
+</script></h3></h5></li></ul>
+<br>
+    </body>
 
-img {
-max-width: 100%;
+
+*******************bootstrap.min.css**********************
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #00bad5
 }
