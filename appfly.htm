@@ -40,7 +40,7 @@
 				}
 			},ignore:''
 			});
-        var accordianWiz = $('#accordion').accordion({autoHeight:false,collapsible: true});
+        var accordianWiz = $('#accordion').accordion();
 			
             $('#cal').datepicker({
                 changeMonth: false,              
@@ -66,9 +66,6 @@
         });
     </script>
     <link rel='stylesheet' type='text/css' href='' media='print' id='printallcss' />
-	<!-- snip -->
-	
-	<!-- snip -->
     </head>
     <body onload='LoadFromQueryString();GetCookies();recalc_onclick("");' onunload='SetCookies();'>
         <noscript style='color:#F15623;'>
@@ -83,17 +80,14 @@
         <form id='formc' name='formc' method='post' action='http://www.spreadsheetserver.com/server1/g/submit/submit.aspx' target='_top'>
 		    <input type='hidden' id='xl_spreadsheet' name='xl_spreadsheet' value='TrappFly' />
             <input type='hidden' id='xl_client' name='xl_client' value='x7.8.6078.0' />
-			<!-- Top text set -->
-			<p style="color: #FFF; background-color: #00bad5; font-size: 25px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; padding-top: 15px; padding-left: 25px;"> TrappFly Version 1.12.18</p>
-<!-- Top text set -->
         <div id="accordion">
             <h3 ><a href="#sheet-1">Main</a></h3>
             <div id="sheet-1">
                 <table width= '100%' cellspacing='0' cellpadding='0' style='border-spacing:0;' onkeydown='javascript:navigate(event);'>
-					<col width='15%'/>
-					<col width='40%'/>
-					<col width='30%'/>
-					<col width='15%'/>
+					<col width='52'/>
+					<col width='259'/>
+					<col width='169'/>
+					<col width='52'/>
                     <tr style='height:26pt'>
 						<td class='ee100' style='height:26pt;'>&nbsp;</td>
 						<td class='ee103' style='height:26pt;' colspan = '2'>
@@ -105,7 +99,7 @@
 						<td class='ee100' style='height:43pt;'>&nbsp;</td>
 						<td class='ee109' style='height:43pt;vertical-align:top;' colspan = '2' rowspan = '2'>
 						<span style='
-  position:absolute;z-index:1;margin-left:0px;margin-top:0px;width:65%;
+  position:absolute;z-index:1;margin-left:0px;margin-top:0px;width:430px;
   height:101px'>
 							<img src='image002.png' width='100%' height='101' alt='' />
 						</span>
@@ -240,11 +234,11 @@
             </div>
             <h3 ><a href="#sheet-3">NewTraps</a></h3>
             <div id="sheet-3">
-                <table width= '100%' cellspacing='0' cellpadding='0' style='border-spacing:0;' onkeydown='javascript:navigate(event);'>
-					<col width='15%'/>
-					<col width='40%'/>
-					<col width='30%'/>
-					<col width='15%'/>
+                <table width= '536' cellspacing='0' cellpadding='0' style='border-spacing:0;' onkeydown='javascript:navigate(event);'>
+					<col width='80'/>
+					<col width='188'/>
+					<col width='188'/>
+					<col width='80'/>
                     <tr style='height:21pt'>
 						<td class='ee100' style='height:21pt;'>&nbsp;</td>
 						<td class='ee103' style='height:21pt;' colspan = '2'>
@@ -256,9 +250,9 @@
 						<td class='ee100' style='height:77pt;'>&nbsp;</td>
 						<td class='ee109' style='height:77pt;vertical-align:top;' colspan = '2' rowspan = '2'>
 						<span style='
-  position:absolute;z-index:1;margin-left:0px;margin-top:0px;width:65%;
+  position:absolute;z-index:1;margin-left:0px;margin-top:0px;width:376px;
   height:93px'>
-							<img src='image004.png' width='100%' height='93' alt='' />
+							<img src='image004.png' width='376' height='93' alt='' />
 						</span>
 						</td>
 						<td class='ee100' style='height:77pt;'>&nbsp;</td>
@@ -580,40 +574,22 @@ JJ+5H5j3mxEoaHEpM7zWj+v2hTRKMzItn0X7oZMa69aWh6LM21MFBZFUDbm3lfkn9d4r/5tbfiYg/N3P
 Y7XPYE+9p4ufewvlfF/5j52eTXxCzgckUf1Jt+EtvXJajHBP+661nkPBDV+0C5tsvuZT8j86nKQbAv0NSVE6kVsgg6H8AUEsBAi0ALQAAAAgAAIKSRVZre3T//////////x8AFAAAAAAAAAAAAAAAAAAAAGFwcGZseV90ZW1wbGF0ZVxhcHBmbHkudGVtcGxhdGUBABAAgEQAAAAAAADIBgAAAAAAAFBLAQItAC0AAAAIAACCkkVf2PgS//////
 ////8eABQAAAAAAAAAAAAAABkHAABhcHBmbHlfdGVtcGxhdGVcRmlsbGVkU3Rhci5naWYBABAAhQMAAAAAAAD3AQAAAAAAAFBLAQItAC0AAAAIAACCkkUJSejs//////////8cABQAAAAAAAAAAAAAAGAJAABhcHBmbHlfdGVtcGxhdGVcaW1hZ2UwMDIucG5nAQAQAPk+AAAAAAAAkD4AAAAAAABQSwECLQAtAAAACAAAgpJF3uqEmv///////
 ///HAAUAAAAAAAAAAAAAAA+SAAAYXBwZmx5X3RlbXBsYXRlXGltYWdlMDA0LnBuZwEAEAAAPwAAAAAAAPI+AAAAAAAAUEsFBgAAAAAEAAQAfQEAAH6HAAAAAA=="><input type="hidden" id="xl_md5" name="xl_md5" value="Hmid5wUHkx09NNFaJMs1mQ==">
-       </form>
+        </form>
         <div class='toolbar no-print'>
+			<a class='poweredby-logo' href='http://www.spreadsheetconverter.com/excel-html-web.htm' target='_blank' tabindex='-1'>
+				<img src='powered-by-spreadsheetconverter.png' title='Convert Excel spreadsheet to online form' alt='Convert Excel spreadsheet to online form'/> 
+			</a>
+            <!--liveshare-->
+                <section id='ssc-ls'></section>
+            <!--/liveshare-->
             <div class='tlb-elm toolpanel'>
                 <button class='tlb-btn toolbarBluebtn update' >Update</button>
                 <button class='tlb-btn toolbarBluebtn reset' style='margin-left:3px'>Reset</button>
-                <button class='tlb-btn toolbarGreenbtn submit' style='margin-left:12px'>Submit Trap Data</button>
+                <button class='tlb-btn toolbarGreenbtn submit' style='margin-left:12px'>Submit</button>
             </div>
+            
+
         </div>
-		
-		<ul>				
-				<li><h5 style="list-style-type: square; color: #FFF; font-size: 1em; padding-left: 20px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><p id="demo">If required Click this button to get your coordinates:</p>
-</h5>				 </li>
-				<div class="ui-btn-right"><h5><button onclick="getLocation()">Get coordinates HERE</button></div>
-<h3><script>
-var x=document.getElementById("demo");
-function getLocation()
-  {
-  if (navigator.geolocation)
-    {
-    navigator.geolocation.getCurrentPosition(showPosition);
-    }
-  else{x.innerHTML="Geolocation is not supported by this browser.";}
-  }
-function showPosition(position)
-  {
-  x.innerHTML="Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;	
-  }
-</script></h3></h5></li></ul>
-<br>
-
-<!-- snip -->
-
-<!-- snip -->
     </body>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/ssc.liveshare.min.js"></script>

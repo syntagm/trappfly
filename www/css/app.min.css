@@ -1,4 +1,4 @@
-/*! jQuery UI - v1.10.0 - 2013-02-11  SYNapps variation 4 Nov 2014
+/*! jQuery UI - v1.10.0 - 2013-02-11
 * http://jqueryui.com
 * Includes: jquery.ui.core.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css
 * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Segoe%20UI%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=6px&bgColorHeader=333333&bgTextureHeader=gloss_wave&bgImgOpacityHeader=25&borderColorHeader=333333&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=000000&bgTextureContent=inset_soft&bgImgOpacityContent=25&borderColorContent=666666&fcContent=ffffff&iconColorContent=cccccc&bgColorDefault=555555&bgTextureDefault=glass&bgImgOpacityDefault=20&borderColorDefault=666666&fcDefault=eeeeee&iconColorDefault=cccccc&bgColorHover=0078a3&bgTextureHover=glass&bgImgOpacityHover=40&borderColorHover=59b4d4&fcHover=ffffff&iconColorHover=ffffff&bgColorActive=f58400&bgTextureActive=inset_soft&bgImgOpacityActive=30&borderColorActive=ffaf0f&fcActive=ffffff&iconColorActive=222222&bgColorHighlight=eeeeee&bgTextureHighlight=highlight_soft&bgImgOpacityHighlight=80&borderColorHighlight=cccccc&fcHighlight=2e7db2&iconColorHighlight=4b8e0b&bgColorError=ffc73d&bgTextureError=glass&bgImgOpacityError=40&borderColorError=ffb73d&fcError=111111&iconColorError=a83300&bgColorOverlay=5c5c5c&bgTextureOverlay=flat&bgImgOpacityOverlay=50&opacityOverlay=80&bgColorShadow=cccccc&bgTextureShadow=flat&bgImgOpacityShadow=30&opacityShadow=60&thicknessShadow=7px&offsetTopShadow=-7px&offsetLeftShadow=-7px&cornerRadiusShadow=8px
@@ -852,7 +852,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 1px solid #ffaf0f;
-	background: #0196a5 url(images/ui-bg_inset-soft_30_0196a5_1x100.png) 50% 50% repeat-x;
+	background: #f58400 url(images/ui-bg_inset-soft_30_f58400_1x100.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -1910,12 +1910,12 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 }
 .toolbar {
 	margin-top: 5px;
-	background-color: #494529;
+	background-color: #f1f1f1;
 	z-index: -1;
 	border-top: solid 4px #ff9c08;
 	border-bottom: solid 2px #D9d8CE;
 	display: inline-block;
-	height: 65px;
+	height: 70px;
 	width: 100%
 }
 .toolbar-upper {
@@ -1934,14 +1934,14 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	text-align: center
 }
 .toolbar .tlb-elm {
-	height: 22px
+	height: 32px
 }
 .toolbar-upper .tlb-elm {
-	height: 22px
+	height: 32px
 }
 .toolpanel {
 	float: left;
-	margin: 16px 16px 0 16px
+	margin: 10px 10px 0 10px
 }
 .poweredby-logo {
 	display: inline-block;
@@ -2014,6 +2014,8 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	position:relative;
 	top:1px
 }
+
+
 
 .tlb-nav-link {
 	display: table;
@@ -2139,36 +2141,22 @@ textarea {
 	padding-right: 1px;
 	padding-top: 1px;
 	text-align: center;
-	vertical-align: bottom
+	vertical-align: middle
 }
-.ee106 {
-	background: #fff;
-	color: red;
-	font-family: Calibri, sans-serif;
-	font-size: 16.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: left;
-	vertical-align: bottom
-}
-.ee108 {
-	background: #0196A5;
+.ee109 {
 	color: #000;
 	font-family: Arial, sans-serif;
 	font-size: 12.00pt;
 	font-style: normal;
 	font-weight: 400
 }
-.ee110 {
+.ee111 {
 	background: #fff;
 	font-family: Calibri, sans-serif;
 	font-size: 16.00pt;
 	vertical-align: middle
 }
-.ee114 {
+.ee112 {
 	background: #fff;
 	color: #000;
 	font-family: Calibri, sans-serif;
@@ -2181,8 +2169,8 @@ textarea {
 	text-align: left;
 	vertical-align: bottom
 }
-.ee117 {
-	background: #027884;
+.ee115 {
+	background: #0196A5;
 	color: #fff;
 	font-family: Calibri, sans-serif;
 	font-size: 12.00pt;
@@ -2194,7 +2182,7 @@ textarea {
 	text-align: center;
 	vertical-align: middle
 }
-.ee120 {
+.ee118 {
 	background: #00BAD5;
 	color: windowtext;
 	font-family: Calibri, sans-serif;
@@ -2207,7 +2195,7 @@ textarea {
 	text-align: center;
 	vertical-align: middle
 }
-.ee123 {
+.ee121 {
 	background: #fff;
 	color: windowtext;
 	font-family: Calibri, sans-serif;
@@ -2220,7 +2208,7 @@ textarea {
 	text-align: center;
 	vertical-align: middle
 }
-.ee124 {
+.ee122 {
 	background: #fff;
 	color: windowtext;
 	font-family: Calibri, sans-serif;
@@ -2230,7 +2218,7 @@ textarea {
 	text-align: center;
 	vertical-align: middle
 }
-.ee125 {
+.ee123 {
 	background: #4DCAE2;
 	color: windowtext;
 	font-family: Calibri, sans-serif;
@@ -2243,7 +2231,7 @@ textarea {
 	text-align: center;
 	vertical-align: middle
 }
-.ee127 {
+.ee125 {
 	background: #F2F2F2;
 	color: windowtext;
 	font-family: Calibri, sans-serif;
@@ -2256,13 +2244,26 @@ textarea {
 	text-align: center;
 	vertical-align: middle
 }
-.ee128 {
+.ee126 {
 	background: #F2F2F2;
 	color: windowtext;
 	font-family: Calibri, sans-serif;
 	font-size: 12.00pt;
 	font-style: normal;
 	font-weight: 400;
+	text-align: center;
+	vertical-align: middle
+}
+.ee127 {
+	background: #494529;
+	color: #fff;
+	font-family: Calibri, sans-serif;
+	font-size: 14.00pt;
+	font-style: normal;
+	font-weight: 700;
+	padding-left: 0;
+	padding-right: 1px;
+	padding-top: 0;
 	text-align: center;
 	vertical-align: middle
 }
@@ -2273,26 +2274,91 @@ textarea {
 	font-size: 14.00pt;
 	font-style: normal;
 	font-weight: 700;
-	padding-left: 0;
-	padding-right: 1px;
-	padding-top: 0;
 	text-align: center;
 	vertical-align: middle
 }
-.ee131 {
-	background: #494529;
-	color: #fff;
+.ee130 {
+	background: #fff;
+	color: #000;
 	font-family: Calibri, sans-serif;
-	font-size: 14.00pt;
+	font-size: 16.00pt;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 400;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	text-align: center;
+	vertical-align: bottom
+}
+.ee133 {
+	background: #fff;
+	color: red;
+	font-family: Calibri, sans-serif;
+	font-size: 16.00pt;
+	font-style: normal;
+	font-weight: 400;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	text-align: left;
+	vertical-align: bottom
+}
+.ee135 {
+	background: #fff;
+	font-family: Calibri, sans-serif;
+	font-size: 16.00pt;
+	text-align: center;
+	vertical-align: middle
+}
+.ee136 {
+	background: #fff;
+	color: windowtext;
+	font-family: Calibri, sans-serif;
+	font-size: 12.00pt;
+	font-style: normal;
+	font-weight: 400;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
 	text-align: center;
 	vertical-align: middle
 }
 textarea {
 	overflow: auto
 }
-
-img {
+}
+img,
+embed,
+object,
+video {
 max-width: 100%;
+}#button button {
+	font-size: x-large;
+	font-weight: 700;
+	height: 2em;
+	width: auto;
+}
+
+.blocked {
+	display: inline-block;
+	padding:10px 7px;
+	color: white;
+	background-color:#d71818
+}
+
+.serviceIconGlobeLight {
+	background: url(../icons/servicesIcons/32/2/iconGlobeBg32.png) 0 0 no-repeat;
+}
+
+.serviceIcon {
+	height: 32px;
+	display: block;
+	padding-left: 44px;
+	line-height: 32px;
+	font-size: 14px;
+	margin-bottom: 18px;
+	color: #000;
+}
+	#button h4 {
+	padding: 0.75em;
 }
